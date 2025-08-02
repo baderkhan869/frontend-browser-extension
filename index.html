@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Browser Extension Manager</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <div class="logo">
+          <img
+            src="browser-extensions-manager-ui-main/assets/images/logo.svg"
+            alt=""
+          />
+        </div>
+        <button class="themeToggleBtn" id="themeToggleBtn">
+          <img
+            id="themeIcon"
+            src="browser-extensions-manager-ui-main/assets/images/icon-sun.svg"
+            alt=""
+          />
+        </button>
+      </header>
+      <main>
+        <div class="grid-header">
+          <h1 class="extension-list">Extention List</h1>
+         <div class="btns-filter">
+           <button class="filter-btn" data-type="all">All</button>
+            <button class="filter-btn" data-type="active">Active</button>
+             <button class="filter-btn" data-type="inactive">Inactive</button>
+         </div>
+        </div>
+        <div class="grid-container">
+        </div>
+      </main>
+      <footer><p>Made with ❤️ by Amir & Bader</p></footer>
+    </div>
+  </body>
+</html>
